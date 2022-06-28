@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Creative single page site</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="logo_container">
+            <img src="./assets/desktop/logo.svg">
+        </div>
+        <button id="mobile_btn"></button>
+        <nav id="nav_container">
+            <ul id="menu">
+                <li><a class="menu_link" href="">About</a></li>
+                <li><a class="menu_link" href="">Service</a></li>
+                <li><a class="menu_link" href="">Projects</a></li>
+                <li class="red_btn black_btn"><a href="">Schedule a call</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div id="hero_img"></div>
+            <div id="hero_content">
+                <h1>Branding & website design agency</h1>
+                <p>We specialize in visual storytelling by creating cohesive brand and website design solutions for
+                    small businesses, giving lasting impressions to audiences in a digital world.</p>
+                <div class="red_btn">
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <section id="strategic">
+            <div id="strategic_img"></div>
+            <div id="strategic_content">
+                <div id="strategic_content_box">
+                    <h2><span class="first_word">Design</span> is strategic.</h2>
+                    <p>"A well-crafted design strategy consistently produces desired outcomes and brand awareness. We
+                        are
+                        firm believers that success lies in creative collaboration with our clients."</p>
+                    <a href="">Schedule a call</a>
+                </div>
+            </div>
+        </section>
+        <section id="approach">
+            <div id="app_01">
+                <h3>Brand strategy</h3>
+                <p>Brand strategy is critical for long-term success. Outshining competitors and capturing the target
+                    audience are key.</p>
+            </div>
+            <div id="app_02">
+                <h3>Brand design</h3>
+                <p>Keeping the brand design unique and meaningful helps in communicating the brand’s timeless value
+                    effectively.</p>
+            </div>
+            <div id="app_03">
+                <h3>Web design</h3>
+                <p>A beautifully crafted website is the best tool for brand awareness, and ultimately results in
+                    increased revenues.</p>
+            </div>
+        </section>
+        <section id="slide">
+            <div id="slide_img" class="img_1">
+                <p id="project_date">2019 project</p>
+                <p id="project_name">Lean Product Roadmap</p>
+            </div>
+            <div id="slide_content">
+                <div id="slide_content_box">
+                    <h2 id="project_desc">Brand naming & guidelines</h2>
+                    <div id="slide_control">
+                        <svg id="prev_img" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+                            <g class="slide_btn" transform="matrix(-1 0 0 1 40 0)" stroke="#F94F4F" fill="none"
+                                fill-rule="evenodd">
+                                <circle cx="20" cy="20" r="19.5" />
+                                <path stroke-width="2" d="M17.5 15l5 5-5 5" />
+                            </g>
+                        </svg>
+                        <svg id="next_img" width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+                            <g class="slide_btn" stroke="#F94F4F" fill="none" fill-rule="evenodd">
+                                <circle cx="20" cy="20" r="19.5" />
+                                <path stroke-width="2" d="M17.5 15l5 5-5 5" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Let's build something great together.</h2>
+        <div class="red_btn">
+            <a href="">Schedule a Call</a>
+        </div>
+    </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>
